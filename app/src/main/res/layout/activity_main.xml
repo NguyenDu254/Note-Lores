@@ -11,13 +11,11 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:weightSum="6">
+        android:orientation="vertical">
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:weightSum="5">
+            android:orientation="vertical">
 
             <ImageView
                 android:id="@+id/imageView3"
@@ -35,9 +33,9 @@
                 android:id="@+id/textView15"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="136dp"
+                android:gravity="center"
+                android:layout_marginStart="130dp"
                 android:layout_marginTop="14dp"
-                android:layout_marginEnd="136dp"
                 android:fontFamily="sans-serif-condensed-medium"
                 android:text="POM POM"
                 android:textColor="#000000"
@@ -67,9 +65,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
-                android:layout_marginTop="150dp"
+                android:layout_marginTop="200dp"
                 android:layout_marginEnd="282dp"
                 android:fontFamily="sans-serif-condensed-medium"
+                android:textColor="@color/black"
                 android:text="WELCOME"
                 android:textSize="24sp"
                 android:textStyle="bold"
@@ -83,6 +82,7 @@
                 android:layout_height="60dp"
                 android:layout_marginStart="30dp"
                 android:layout_marginTop="10dp"
+                android:textColor="@color/black"
                 android:layout_marginEnd="125dp"
                 android:fontFamily="sans-serif-condensed-medium"
                 android:text="Welcome to our note app! Streamline your thoughts and ideas with ease. Happy note-taking!"
@@ -96,8 +96,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:weightSum="1">
+            android:orientation="horizontal">
 
             <Button
                 android:id="@+id/btnRegister"
@@ -120,6 +119,7 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="33dp"
                 android:layout_marginEnd="16dp"
+                android:textColor="@color/white"
                 android:layout_weight="0.5"
                 android:backgroundTint="#000000"
                 android:fontFamily="sans-serif-condensed-medium"
